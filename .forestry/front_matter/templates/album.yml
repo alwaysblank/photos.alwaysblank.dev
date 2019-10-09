@@ -25,3 +25,5 @@ fields:
     label: Caption
   config:
     labelField: alt
+pages:
+- content/album/vista-house.md

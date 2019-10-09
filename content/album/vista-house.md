@@ -3,9 +3,9 @@
   "date": "2019-10-09T07:50:39-07:00",
   "photos": [
     {
-      "path": "",
-      "alt": "A picture of some pizza",
-      "caption": "This isn't actually from Vista House"
+      "path": "/photos/v1570633842/photos/vista-house/looking-out-over-the-gorge.jpg",
+      "alt": "Person looking out over the Columbia Gorge",
+      "caption": ""
     }
   ],
   "draft": true
