@@ -3,7 +3,7 @@
   "date": "2019-10-09T07:50:39-07:00",
   "photos": [
     {
-      "path": "/photos/v1570633842/photos/vista-house/looking-out-over-the-gorge.jpg",
+      "path": "https://res.cloudinary.com/djd6kxozp/image/upload/photos/v1570633842/photos/vista-house/looking-out-over-the-gorge.jpg",
       "alt": "Person looking out over the Columbia Gorge",
       "caption": ""
     }
