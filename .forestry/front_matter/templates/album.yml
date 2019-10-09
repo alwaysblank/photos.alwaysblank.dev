@@ -1,0 +1,23 @@
+---
+label: Album
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: field_group_list
+  name: photos
+  label: photos
+  fields:
+  - type: file
+    name: path
+    label: path
+  - type: text
+    name: alt
+    label: alt
+  - type: text
+    name: caption
+    label: caption
