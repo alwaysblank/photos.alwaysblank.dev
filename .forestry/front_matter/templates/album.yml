@@ -1,23 +1,25 @@
 ---
 label: Album
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: TItle
 - type: datetime
   name: date
-  label: date
+  label: Date
+  default: now
 - type: field_group_list
   name: photos
-  label: photos
+  label: Photos
   fields:
   - type: file
     name: path
-    label: path
+    label: Image
   - type: text
     name: alt
-    label: alt
+    label: Alt
   - type: text
     name: caption
-    label: caption
+    label: Caption
