@@ -8,21 +8,12 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
 /* Sections
    ========================================================================== */
 
 /**
  * Remove the margin in all browsers.
  */
-
-body {
-  margin: 0;
-}
 
 /**
  * Render the `main` element consistently in IE.
@@ -36,11 +27,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /* Grouping content
    ========================================================================== */
@@ -288,11 +274,6 @@ legend {
  * 2. Change the default font family in all browsers (opinionated)
  */
 
-html {
-  box-sizing: border-box; /* 1 */
-  font-family: sans-serif; /* 2 */
-}
-
 *,
 *::before,
 *::after {
@@ -304,7 +285,6 @@ html {
  */
 
 
-h1,
 p {
   margin: 0;
 }
@@ -324,13 +304,6 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 /**
  * Tailwind custom reset styles
  */
@@ -340,11 +313,6 @@ ul {
  * 2. Use Tailwind's default "normal" line-height so the user isn't forced
  * to override it to ensure consistency even when using the default theme.
  */
-
-html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
-  line-height: 1.5; /* 2 */
-}
 
 /**
  * Allow adding a border to an element by just adding a border-width.
@@ -414,11 +382,6 @@ button,
   cursor: pointer;
 }
 
-h1 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
 /**
  * Reset links to optimize for opt-in styling instead of
  * opt-out.
@@ -476,133 +439,5 @@ object {
 img {
   max-width: 100%;
   height: auto;
-}
-
-.bg-teal-400 {
-  background-color: #4fd1c5;
-}
-
-.hover\:bg-gray-100:hover {
-  background-color: #f7fafc;
-}
-
-.hover\:bg-teal-500:hover {
-  background-color: #38b2ac;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.block {
-  display: block;
-}
-
-.font-light {
-  font-weight: 300;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.max-w-xl {
-  max-width: 36rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.static {
-  position: static;
-}
-
-.relative {
-  position: relative;
-}
-
-.shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-white {
-  color: #fff;
-}
-
-.text-gray-500 {
-  color: #a0aec0;
-}
-
-.text-gray-700 {
-  color: #4a5568;
-}
-
-.text-gray-800 {
-  color: #2d3748;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.w-full {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:flex-auto {
-    flex: 1 1 auto;
-  }
 }
 
