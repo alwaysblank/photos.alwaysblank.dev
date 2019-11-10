@@ -12,8 +12,14 @@
     <link rel="stylesheet" href="/static/app.compiled.css">
     {% endif %}
   </head>
-  <body>
-    {{ content | safe }}
+  <body class="bg-gray-200 font-mono">
+      <nav class="p-4 flex justify-between text-xs uppercase font-bold">
+        <a href="/"><span class="text-base">📷</span> photos.alwaysblank.org</a>
+        <div>{{ site.description }}</div>
+      </nav>
+    <main class="px-4 py-8">
+      {{ content | safe }}
+    </main>
   </body>
   <script src="/static/app.bundled.js"></script>
 </html>

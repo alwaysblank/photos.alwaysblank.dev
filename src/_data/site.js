@@ -9,13 +9,12 @@
 var pkgJSON = require('../../package.json');
 
 module.exports = {
-  title: "Web Starter | Start building your website quicker",
-  author: "Chris Collins",
-  url: "https://webstarter.chriscollins.me", // Don't end with a slash /
-  description: "An opinionated but minimal boilerplate for new projects built with Eleventy",
+  title: "A/B Photography",
+  author: "Ben Martinez-Bateman",
+  url: "https://photos.alwaysblank.org", // Don't end with a slash /
+  description: "Pictures I done took",
   meta_data: {
     theme_color: '#000', // used in Chrome, Firefox OS and Opera
-    twitter: "@scottishstoater",
     default_social_image: "/static/images/featured_image.jpg"
   },
   ENV: process.env.ELEVENTY_ENV,

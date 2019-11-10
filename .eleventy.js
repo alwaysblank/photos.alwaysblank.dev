@@ -36,14 +36,13 @@ module.exports = function (eleventyConfig) {
         return date.toISOString();
     });
 
-
     return {
         dir: {
             input: "src/",
             output: "dist",
             includes: "_includes"
         },
-        templateFormats: ["html", "md", "njk"],
+        templateFormats: ["html", "md", "njk", "11ty.js"],
         htmlTemplateEngine: "njk",
 
         // 1.1 Enable elventy to pass dirs specified above

@@ -41,7 +41,7 @@
 <!-- Helps prevent duplicate content issues -->
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-<title>{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}</title>
+<title>{% if title %}{{ site.title }} | {{ title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="icon" type="image/x-icon" href="/static/images/favicon.png" />
 
 <!-- Links to information about the author(s) of the document -->
