@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <div class="px-4 max-w-xl mx-auto text-lg text-gray-800 text-center">
     <h1 class="text-center text-3xl">Rolls</h1>
     <ul>
-        {%- for roll in collections.roll -%}
+        {%- for roll in collections.roll | reverse -%}
             <li>
                 <a href="{{ roll.url }}" class="block w-full bg-gray-300 border-4 border-gray-400 my-4 p-8">
                 {{ roll.data.title }} - <time datetime="{{ roll.date | htmlDateString }}">{{ roll.date | readableDate }}</time>
