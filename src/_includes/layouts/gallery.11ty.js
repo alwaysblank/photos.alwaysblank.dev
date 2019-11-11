@@ -13,10 +13,12 @@ class Test {
     const cloudinary = require('cloudinary').v2;
 
     const src = cloudinary.url(image, {
+      secure: true,
       transformation: [{ width: 100,}]
     });
     const srcset = [320, 640, 1280].map(w => {
       const src = cloudinary.url(image, {
+        secure: true,
         transformation: [{ width: w,}]
       });
       return `${src} ${w}w`;
