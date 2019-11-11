@@ -16,6 +16,10 @@ class Test {
       secure: true,
       transformation: [{ width: 100,}]
     });
+    const large = cloudinary.url(image, {
+      secure: true,
+      transformation: [{ width: 1280,}]
+    });
     const srcset = [320, 640, 1280].map(w => {
       const src = cloudinary.url(image, {
         secure: true,
@@ -23,10 +27,11 @@ class Test {
       });
       return `${src} ${w}w`;
     });
-    return `<img class="border-4 border-gray-400 my-4" 
-              src="${src}" 
-              srcset="${srcset.join(`, `)}" 
-              sizes="(max-width: 640px) 100vw, 640px" />`;
+    return `<a class="border-4 border-gray-400 my-4 block" href="${large}" data-lightbox>
+              <img class="b;pcl" 
+                src="${src}" 
+                srcset="${srcset.join(`, `)}" 
+                sizes="(max-width: 640px) 100vw, 640px" /></a>`;
   }
 
   render({album, content, page, photos}) {
