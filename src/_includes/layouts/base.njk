@@ -13,9 +13,9 @@
     {% endif %}
   </head>
   <body class="bg-gray-200 font-mono">
-      <nav class="p-4 flex justify-between text-xs uppercase font-bold">
-        <a href="/"><span class="text-base">📷</span> photos.alwaysblank.org</a>
-        <div>{{ site.description }}</div>
+      <nav class="p-4 flex justify-between items-center text-xs uppercase font-bold">
+        <a href="/"><span class="text-base text-3xl md:text-xl">📷</span> <span class="hidden md:inline-block">photos.alwaysblank.org</span></a>
+        <div class="leading-tight">{{ site.description }}</div>
       </nav>
     <main class="px-4 py-8">
       {{ content | safe }}
