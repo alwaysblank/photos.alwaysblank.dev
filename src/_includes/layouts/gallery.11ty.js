@@ -18,15 +18,21 @@ class Gallery {
     const url_text = context && context.custom && context.custom.url_text ? context.custom.url_text : false;
 
     const src = cloudinary.url(public_id, {
+      fetch_format: `auto`,
       secure: true,
+      quality: `auto:low`,
       transformation: [{ width: 100,}]
     });
     const large = cloudinary.url(public_id, {
+      fetch_format: `auto`,
+      quality: `auto:best`,
       secure: true,
       transformation: [{ width: 1280,}]
     });
     const srcset = [320, 640, 1280].map(w => {
       const src = cloudinary.url(public_id, {
+        fetch_format: `auto`,
+        quality: `auto:good`,
         secure: true,
         transformation: [{ width: w,}]
       });
@@ -41,7 +47,8 @@ class Gallery {
                 src="${src}" 
                 srcset="${srcset.join(`, `)}" 
                 sizes="(max-width: 640px) 100vw, 640px"
-                alt="${alt}" /></a>
+                alt="${alt}"
+                loading="lazy" /></a>
                 ${caption ? `<figcaption class="px-2 py-2 italic">${caption}</figcaption>` : ``}${link}</figure>`;
   }
 
