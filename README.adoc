@@ -1,0 +1,13 @@
+= Photos
+
+A site for my photos!
+
+[link=https://app.netlify.com/sites/photos-alwaysblank/deploys]
+image::https://api.netlify.com/api/v1/badges/09011dd3-9f9d-4f24-b183-9e77764ba437/deploy-status
+
+== How's It Work?
+
+Each roll defines an `album`, which is the path to a folder on my Cloudinary account.
+When a build is run (only locally, currently) the script checks to see if a file containing data for that album exist; if it does, then it builds the site from that. 
+If it doesn't, it pulls the necessary info from Cloudinary via the Admin API, saves it to a file, and then builds the site.
+It does this for faster builds on old rolls, but also to keep from hitting the API a ton--the Admin API is rate-limited to around 500 calls an hour.
