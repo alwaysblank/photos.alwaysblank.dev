@@ -6,9 +6,19 @@ layout: layouts/base.njk
     <h1 class="text-center text-3xl">Rolls</h1>
     <ul>
         {%- for roll in collections.roll | reverse -%}
-            <li>
-                <a href="{{ roll.url }}" class="block w-full bg-gray-300 border-4 border-gray-400 my-4 p-8">
-                {{ roll.data.title }} - <time datetime="{{ roll.date | htmlDateString }}">{{ roll.date | readableDate }}</time>
+            {%- if roll.data.featured_image -%}
+                <style>
+                    .li-{{ roll.data.title | slug }}:hover {
+                        background-size: cover;
+                        background-image: url(https://res.cloudinary.com/djd6kxozp/image/upload/w_640,h_300,c_fill/{{ roll.data.album }}/{{ roll.data.featured_image }}.jpg);
+                    }
+                </style>
+            {%- endif -%}
+            <li class="li-{{ roll.data.title | slug }} bg-gray-300 border-4 border-gray-400 my-4">
+                <a href="{{ roll.url }}" class="flex justify-center items-center w-full p-8">
+                    <div class="bg-gray-300 px-1">
+                        {{ roll.data.title }} - <time datetime="{{ roll.date | htmlDateString }}">{{ roll.date | readableDate }}</time>
+                    </div>
                 </a>
             </li>
         {%- endfor -%}
