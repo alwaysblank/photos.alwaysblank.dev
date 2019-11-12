@@ -15,7 +15,7 @@ module.exports = {
   description: "Pictures I done took",
   meta_data: {
     theme_color: '#000', // used in Chrome, Firefox OS and Opera
-    default_social_image: "/static/images/featured_image.jpg"
+    default_social_image: "https://res.cloudinary.com/djd6kxozp/image/upload/w_1200,h_675,c_fill/photos/vista-house/looking-out-over-the-gorge.jpg"
   },
   ENV: process.env.ELEVENTY_ENV,
   version: pkgJSON.version
