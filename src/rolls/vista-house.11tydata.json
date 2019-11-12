@@ -39,8 +39,41 @@
         }
       ],
       "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2019-11-12T01:00:00.000Z",
-      "rate_limit_remaining": 335
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/evening-on-the columbia",
+      "format": "jpg",
+      "version": 1573537742,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:49:02Z",
+      "bytes": 2086655,
+      "width": 3983,
+      "height": 2650,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573537742/photos/vista-house/evening-on-the%20columbia.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573537742/photos/vista-house/evening-on-the%20columbia.jpg",
+      "context": {
+        "custom": {
+          "alt": "Evening on the Columbia River, looking west"
+        }
+      },
+      "next_cursor": "f62a0f7ddfc75a7278bc1c4442f9d87d6accbd89216cea735b6b223b063ecee9",
+      "derived": [
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 20628,
+          "id": "ca043716c66b9908c6c71f6ffa4f1054",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537742/photos/vista-house/evening-on-the%20columbia",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537742/photos/vista-house/evening-on-the%20columbia",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
     },
     {
       "public_id": "photos/vista-house/extreme-cu-concrete-railing",
@@ -81,8 +114,41 @@
         }
       ],
       "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2019-11-12T01:00:00.000Z",
-      "rate_limit_remaining": 335
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/flat-hill",
+      "format": "jpg",
+      "version": 1573537784,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:49:44Z",
+      "bytes": 7063913,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573537784/photos/vista-house/flat-hill.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573537784/photos/vista-house/flat-hill.jpg",
+      "context": {
+        "custom": {
+          "alt": "A hill that appears to be flat in front of a forest"
+        }
+      },
+      "next_cursor": "ebbb285f8c32ba4f54cb473b1617362bbfe6decc8bd161c281ee698c5b510daf",
+      "derived": [
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 84367,
+          "id": "eaef0d1b1c9f0aa69aae2d944020a738",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537784/photos/vista-house/flat-hill",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537784/photos/vista-house/flat-hill",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
     },
     {
       "public_id": "photos/vista-house/forested-bluff-on-columbia-river",
@@ -123,8 +189,8 @@
         }
       ],
       "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2019-11-12T01:00:00.000Z",
-      "rate_limit_remaining": 335
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
     },
     {
       "public_id": "photos/vista-house/looking-out-over-the-gorge",
@@ -145,6 +211,14 @@
       },
       "next_cursor": "61273340cfbc6ea5d86c57d313f63e4ac28e7b1cc56d15efcc5f27ea8f138f8e",
       "derived": [
+        {
+          "transformation": "w_1200,h_675,c_fill",
+          "format": "jpg",
+          "bytes": 74842,
+          "id": "0a2fdcaead9a697d08785294e55df981",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_1200,h_675,c_fill/v1570633842/photos/vista-house/looking-out-over-the-gorge.jpg",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_1200,h_675,c_fill/v1570633842/photos/vista-house/looking-out-over-the-gorge.jpg"
+        },
         {
           "transformation": "w_1280/",
           "format": "jpg",
@@ -199,8 +273,263 @@
         }
       ],
       "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2019-11-12T01:00:00.000Z",
-      "rate_limit_remaining": 335
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/marina-laughing",
+      "format": "jpg",
+      "version": 1573537781,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:49:41Z",
+      "bytes": 4935456,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573537781/photos/vista-house/marina-laughing.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573537781/photos/vista-house/marina-laughing.jpg",
+      "context": {
+        "custom": {
+          "alt": "Person next to a concrete railing laughing with a forest behind them"
+        }
+      },
+      "next_cursor": "c30f3c9df44812a0e8104c3a9f6d3f26e6b2ccd437afd7aa65825473f3758c9f",
+      "derived": [
+        {
+          "transformation": "w_1280/",
+          "format": "jpg",
+          "bytes": 174968,
+          "id": "252ab04b371d2c523a2376f2a4933e59",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537781/photos/vista-house/marina-laughing",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537781/photos/vista-house/marina-laughing",
+          "extension": ""
+        },
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 59745,
+          "id": "eb3f1e6d47cb651c2bea0c9edd3f71c3",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537781/photos/vista-house/marina-laughing",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537781/photos/vista-house/marina-laughing",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/marina-profile-1",
+      "format": "jpg",
+      "version": 1573537784,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:49:44Z",
+      "bytes": 5850174,
+      "width": 2868,
+      "height": 4310,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573537784/photos/vista-house/marina-profile-1.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573537784/photos/vista-house/marina-profile-1.jpg",
+      "context": {
+        "custom": {
+          "alt": "Person backlit by late afternoon sun"
+        }
+      },
+      "next_cursor": "bd0d490084dc04c04384a4b0e9453611723aedf0c6a420ea4e63a8094bdc32c0",
+      "derived": [
+        {
+          "transformation": "w_1280/",
+          "format": "jpg",
+          "bytes": 284035,
+          "id": "7736ac0f8f5dd7dc926263068ed314c6",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537784/photos/vista-house/marina-profile-1",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537784/photos/vista-house/marina-profile-1",
+          "extension": ""
+        },
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 90552,
+          "id": "c4c5c4cfde792ca4b12b3ffe4fc0462c",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537784/photos/vista-house/marina-profile-1",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537784/photos/vista-house/marina-profile-1",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/marina-profile-2",
+      "format": "jpg",
+      "version": 1573537776,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:49:36Z",
+      "bytes": 4072186,
+      "width": 2868,
+      "height": 4310,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573537776/photos/vista-house/marina-profile-2.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573537776/photos/vista-house/marina-profile-2.jpg",
+      "context": {
+        "custom": {
+          "alt": "Person backlit by late afternoon sun"
+        }
+      },
+      "next_cursor": "024bab25172cbdbfe743ee8cfd71dee4866a2e1e0c400d09430a3c3327c78530",
+      "derived": [
+        {
+          "transformation": "w_1280/",
+          "format": "jpg",
+          "bytes": 174669,
+          "id": "df593667b9e64f04f5e41195edac2992",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537776/photos/vista-house/marina-profile-2",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537776/photos/vista-house/marina-profile-2",
+          "extension": ""
+        },
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 59651,
+          "id": "794ee72d9443c40e6566f99ea9e82afd",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537776/photos/vista-house/marina-profile-2",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537776/photos/vista-house/marina-profile-2",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/marina-profile-3",
+      "format": "jpg",
+      "version": 1573537760,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:49:20Z",
+      "bytes": 3600388,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573537760/photos/vista-house/marina-profile-3.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573537760/photos/vista-house/marina-profile-3.jpg",
+      "context": {
+        "custom": {
+          "alt": "A person's face in profile"
+        }
+      },
+      "next_cursor": "98be5bd6c42d7930576448e0bbe458cd30552481795ef88164a2b01a17658982",
+      "derived": [
+        {
+          "transformation": "w_1280/",
+          "format": "jpg",
+          "bytes": 98567,
+          "id": "37304620ea88be548e0ae634d8ed2a2b",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537760/photos/vista-house/marina-profile-3",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537760/photos/vista-house/marina-profile-3",
+          "extension": ""
+        },
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 39016,
+          "id": "816d0ec16e710c5595fe2e196bce6a39",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537760/photos/vista-house/marina-profile-3",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537760/photos/vista-house/marina-profile-3",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/marina-shirt-model",
+      "format": "jpg",
+      "version": 1573538238,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:57:18Z",
+      "bytes": 4383709,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573538238/photos/vista-house/marina-shirt-model.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573538238/photos/vista-house/marina-shirt-model.jpg",
+      "context": {
+        "custom": {
+          "alt": "Person looking pensive, wearing a shirt that says \"You're not crazy, he's just gaslighting you\"",
+          "caption": "\"You're not crazy, he's just gaslighting you\"",
+          "url": "https://grltrbl.com/",
+          "url_text": "Shirt from GRL TRBL"
+        }
+      },
+      "next_cursor": "d3de96bbd9cfeac714e2282a719deead3f6fe8eab8cd62387947a8064509e968",
+      "derived": [
+        {
+          "transformation": "w_1280/",
+          "format": "jpg",
+          "bytes": 144477,
+          "id": "2672ad033c99216c2016dc7f6c26d2cf",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573538238/photos/vista-house/marina-shirt-model",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573538238/photos/vista-house/marina-shirt-model",
+          "extension": ""
+        },
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 51021,
+          "id": "628ad4698823d7a718d3237e5d9ff79d",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573538238/photos/vista-house/marina-shirt-model",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573538238/photos/vista-house/marina-shirt-model",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
+    },
+    {
+      "public_id": "photos/vista-house/marina-sly",
+      "format": "jpg",
+      "version": 1573537764,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2019-11-12T05:49:24Z",
+      "bytes": 4749760,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1573537764/photos/vista-house/marina-sly.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1573537764/photos/vista-house/marina-sly.jpg",
+      "context": {
+        "custom": {
+          "alt": "A person with a sly expression"
+        }
+      },
+      "next_cursor": "21f7282a4b670a3a14500e4149739fabbcdda2588269a451db5767e7f53a759a",
+      "derived": [
+        {
+          "transformation": "w_1280/",
+          "format": "jpg",
+          "bytes": 141223,
+          "id": "457abecc8e01bde08d46f0352bbfdc9e",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537764/photos/vista-house/marina-sly",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_1280/v1573537764/photos/vista-house/marina-sly",
+          "extension": ""
+        },
+        {
+          "transformation": "w_640/",
+          "format": "jpg",
+          "bytes": 48266,
+          "id": "f09641ab44cf52e74cb01d06f0f2a60c",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537764/photos/vista-house/marina-sly",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640/v1573537764/photos/vista-house/marina-sly",
+          "extension": ""
+        }
+      ],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
     },
     {
       "public_id": "photos/vista-house/pair-of-planes",
@@ -241,8 +570,8 @@
         }
       ],
       "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2019-11-12T01:00:00.000Z",
-      "rate_limit_remaining": 335
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
     },
     {
       "public_id": "photos/vista-house/stream-through-a-forest-wetland",
@@ -284,8 +613,8 @@
         }
       ],
       "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2019-11-12T01:00:00.000Z",
-      "rate_limit_remaining": 335
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
     },
     {
       "public_id": "photos/vista-house/traffic-on-i-84-gorge-evening",
@@ -308,6 +637,14 @@
       "next_cursor": "62e18f65094df2836eddda5f7b4092419f7ae7eede7709fca50f5a5df201eb74",
       "derived": [
         {
+          "transformation": "w_640,h_300,c_fill",
+          "format": "jpg",
+          "bytes": 31485,
+          "id": "051fdc44fc10e581a5d6c7f6fde02169",
+          "url": "http://res.cloudinary.com/djd6kxozp/image/upload/w_640,h_300,c_fill/v1573455431/photos/vista-house/traffic-on-i-84-gorge-evening.jpg",
+          "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/w_640,h_300,c_fill/v1573455431/photos/vista-house/traffic-on-i-84-gorge-evening.jpg"
+        },
+        {
           "transformation": "w_1280/",
           "format": "jpg",
           "bytes": 156293,
@@ -327,8 +664,8 @@
         }
       ],
       "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2019-11-12T01:00:00.000Z",
-      "rate_limit_remaining": 335
+      "rate_limit_reset_at": "2019-11-12T07:00:00.000Z",
+      "rate_limit_remaining": 483
     }
   ]
 }

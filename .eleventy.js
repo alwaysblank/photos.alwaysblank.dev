@@ -36,6 +36,9 @@ module.exports = function (eleventyConfig) {
         return date.toISOString();
     });
 
+    eleventyConfig.addFilter("replaceDoubleQuote", (value) => value.replace(`"`, `'`));
+    eleventyConfig.addFilter("replaceSingleQuote", (value) => value.replace(`'`, `"`));
+
     return {
         dir: {
             input: "src/",

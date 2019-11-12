@@ -12,8 +12,10 @@ class Gallery {
   buildImage(data) {
     const cloudinary = require('cloudinary').v2;
     const {public_id, context = false} = data;
-    const alt = context && context.custom && context.custom.alt ? context.custom.alt : ``;
+    const alt = context && context.custom && context.custom.alt ? context.custom.alt.replace(`"`, `'`) : ``;
     const caption = context && context.custom && context.custom.caption ? context.custom.caption : ``;
+    const url = context && context.custom && context.custom.url ? context.custom.url : false;
+    const url_text = context && context.custom && context.custom.url_text ? context.custom.url_text : false;
 
     const src = cloudinary.url(public_id, {
       secure: true,
@@ -30,13 +32,17 @@ class Gallery {
       });
       return `${src} ${w}w`;
     });
-    return `<figure class="my-4 "><a class="border-4 border-gray-400 block" href="${large}" data-lightbox>
+    let link = ``;
+    if (url) {
+      link = `<div>(<a class="text-xs underline text-pink-500" href="${url}">${url_text}</a>)</div>`;
+    }
+    return `<figure class="my-4 text-center"><a class="border-4 border-gray-400 block" href="${large}" data-lightbox>
               <img class="block" 
                 src="${src}" 
                 srcset="${srcset.join(`, `)}" 
                 sizes="(max-width: 640px) 100vw, 640px"
                 alt="${alt}" /></a>
-                ${caption ? `<figcaption class="px-2 py-2 italic text-center">${caption}</figcaption>` : ``}</figure>`;
+                ${caption ? `<figcaption class="px-2 py-2 italic">${caption}</figcaption>` : ``}${link}</figure>`;
   }
 
   render({album, content, page, photos}) {
