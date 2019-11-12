@@ -11,11 +11,12 @@ class Gallery {
 
   buildImage(data) {
     const cloudinary = require('cloudinary').v2;
-    const {public_id, context = false} = data;
+    const {public_id, width, height, context = false} = data;
     const alt = context && context.custom && context.custom.alt ? context.custom.alt.replace(`"`, `'`) : ``;
     const caption = context && context.custom && context.custom.caption ? context.custom.caption : ``;
     const url = context && context.custom && context.custom.url ? context.custom.url : false;
     const url_text = context && context.custom && context.custom.url_text ? context.custom.url_text : false;
+    const ratio = height / width;
 
     const src = cloudinary.url(public_id, {
       fetch_format: `auto`,
@@ -29,7 +30,7 @@ class Gallery {
       secure: true,
       transformation: [{ width: 1280,}]
     });
-    const srcset = [320, 640, 1280].map(w => {
+    const srcset = [320, 568, 1280].map(w => {
       const src = cloudinary.url(public_id, {
         fetch_format: `auto`,
         quality: `auto:good`,
@@ -42,11 +43,13 @@ class Gallery {
     if (url) {
       link = `<div>(<a class="text-xs underline text-pink-500" href="${url}">${url_text}</a>)</div>`;
     }
-    return `<figure class="my-4 text-center"><a class="border-4 border-gray-400 block" href="${large}" data-lightbox>
-              <img class="block" 
+    return `<figure class="my-4 text-center"><a class="border-4 border-gray-400 bg-gray-400 block" href="${large}" data-lightbox>
+              <img class="block max-w-full"
+                width="568" 
+                height="${Math.round(ratio * 568)}"
                 src="${src}" 
-                srcset="${srcset.join(`, `)}" 
-                sizes="(max-width: 640px) 100vw, 640px"
+                data-srcset="${srcset.join(`, `)}" 
+                sizes="(max-width: 568px) 100vw, 568px"
                 alt="${alt}"
                 loading="lazy" /></a>
                 ${caption ? `<figcaption class="px-2 py-2 italic">${caption}</figcaption>` : ``}${link}</figure>`;
