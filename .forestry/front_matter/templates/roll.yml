@@ -3,14 +3,21 @@ label: Roll
 hide_body: false
 fields:
 - type: text
-  name: album
-  label: album
-- type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: album
+  label: Album
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    required: true
 - type: text
   name: featured_image
-  label: featured_image
+  label: Featured Image
+  description: This is the public ID of a photo in the above album on Cloudinary.
