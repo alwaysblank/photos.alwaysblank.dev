@@ -1,0 +1,16 @@
+---
+label: Roll
+hide_body: false
+fields:
+- type: text
+  name: album
+  label: album
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: featured_image
+  label: featured_image
