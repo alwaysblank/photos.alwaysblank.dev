@@ -38,5 +38,5 @@ jobs:
           npm run build
           git config user.email "ben@alwaysblank.org"
           git config user.name "Ben [CircleCI Job]"
-          git diff-index --quiet HEAD -- || git add src/rolls/ && git commit -m "[CI] Updated roll cache" && git push
+          git diff-index --quiet HEAD -- || git add src/rolls/ && git commit -m "[ci skip] Updated roll cache" && git push
 
