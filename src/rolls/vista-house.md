@@ -1,5 +1,5 @@
 ---
-album: 'photos/vista-house/'
+album: 'photos/vista-house'
 title: "Vista House"
 date: 2019-10-06
 featured_image: 'traffic-on-i-84-gorge-evening'
