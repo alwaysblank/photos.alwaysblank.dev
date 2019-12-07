@@ -58,7 +58,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
 {% if site.meta_data.default_social_image or featured_image %}
-<meta property="og:image" content="{% if featured_image  %}https://res.cloudinary.com/djd6kxozp/image/upload/w_640,h_300,c_fill/{{ album }}/{{ featured_image }}.jpg{% else %}{{ site.meta_data.default_social_image }}{% endif %}" />
+<meta property="og:image" content="{% if featured_image  %}https://res.cloudinary.com/djd6kxozp/image/upload/c_fill,g_auto,h_628,w_1200/{{ album }}/{{ featured_image }}.jpg{% else %}{{ site.meta_data.default_social_image }}{% endif %}" />
 {% endif %}
 <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}">
@@ -73,7 +73,7 @@
 <meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
 {% if site.meta_data.default_social_image or featured_image %}
-<meta name="twitter:image" content="{% if featured_image  %}https://res.cloudinary.com/djd6kxozp/image/upload/w_640,h_300,c_fill/{{ album }}/{{ featured_image }}.jpg{% else %}{{ site.meta_data.default_social_image }}{% endif %}">
+<meta name="twitter:image" content="{% if featured_image  %}https://res.cloudinary.com/djd6kxozp/image/upload/c_fill,g_auto,h_512,w_1024/{{ album }}/{{ featured_image }}.jpg{% else %}{{ site.meta_data.default_social_image }}{% endif %}">
 {% endif %}
 <!-- disallow Twitter from using your site's info for personalization purposes -->
 <meta name="twitter:dnt" content="on">
