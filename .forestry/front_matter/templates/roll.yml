@@ -22,3 +22,5 @@ fields:
   name: featured_image
   label: Featured Image
   description: This is the public ID of a photo in the above album on Cloudinary.
+pages:
+- src/rolls/sou-wester-2019.md
