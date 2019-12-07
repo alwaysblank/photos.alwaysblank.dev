@@ -35,7 +35,7 @@ jobs:
 
       # Build cache
       - run: |
-          npm run build
+          npm run site:build
           git config user.email "ben@alwaysblank.org"
           git config user.name "Ben [CircleCI Job]"
           if [[ -z $(git status -s) ]]
