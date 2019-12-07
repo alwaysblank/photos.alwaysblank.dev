@@ -1,0 +1,16 @@
+@import 'basiclightbox/dist/basicLightbox.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown p {
+  margin-bottom: 1em;
+}
+
+.markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown a {
+  border-bottom: 1px solid theme('colors.pink.600');
+}

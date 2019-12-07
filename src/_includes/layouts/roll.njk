@@ -8,5 +8,7 @@ layout: layouts/base.njk
       <time datetime="{{ date | htmlDateString }}" class="italic">{{ date | readableDate }}</time>
     <div>
   </header>
-  {{ content | safe }}
+  <div class="markdown">
+    {{ content | safe }}
+  </div>
 </div>

@@ -65,3 +65,4 @@ typings/
 
 # Build 
 dist
+.cache

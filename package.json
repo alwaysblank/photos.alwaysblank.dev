@@ -3,8 +3,11 @@
   "version": "1.2.1",
   "description": "Basic web starter kit with 11ty, TailwindsCSS and PostCSS.",
   "scripts": {
-    "start": "concurrently \"ELEVENTY_ENV=development eleventy --serve --watch\" \"postcss src/_assets/stylesheets/app.css -o src/static/app.compiled.css -w\" \"webpack --watch --config webpack.config.js\"",
-    "build": "del dist && eleventy && purgecss --config ./purgecss.config.js --out src/_includes/stylesheets && ELEVENTY_ENV=production webpack --config webpack.config.js && ELEVENTY_ENV=production eleventy"
+    "assets:watch": "parcel src/_assets/styles/app.css src/_assets/scripts/app.js -d src/static",
+    "assets:build": "parcel build src/_assets/styles/app.css src/_assets/scripts/app.js -d src/static --no-source-maps",
+    "site:build": "eleventy build",
+    "site:serve": "eleventy --serve",
+    "build": "assets:build && site:build"
   },
   "author": "Chris Collins",
   "license": "ISC",
@@ -12,23 +15,18 @@
     "@11ty/eleventy": "^0.9.0",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "@fullhuman/postcss-purgecss": "^1.3.0",
     "autoprefixer": "^9.6.1",
-    "babel-loader": "^8.0.6",
-    "concurrently": "^4.1.1",
-    "del-cli": "^2.0.0",
-    "html-minifier": "^4.0.0",
-    "luxon": "^1.19.3",
-    "postcss-cli": "^6.1.3",
-    "purgecss": "^1.3.0",
-    "tailwindcss": "^1.0.6",
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6"
-  },
-  "dependencies": {
     "basiclightbox": "^5.0.2",
     "cloudinary": "^1.16.0",
     "dotenv": "^8.2.0",
+    "html-minifier": "^4.0.0",
+    "luxon": "^1.21.3",
+    "markdown-it": "^10.0.0",
+    "parcel-bundler": "^1.12.4",
     "postcss-import": "^12.0.1",
+    "sass": "^1.23.7",
+    "tailwindcss": "^1.1.4",
     "vanilla-lazyload": "^12.3.0"
   }
 }

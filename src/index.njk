@@ -8,13 +8,13 @@ layout: layouts/base.njk
         {%- for roll in collections.roll | reverse -%}
             {%- if roll.data.featured_image -%}
                 <style>
-                    .li-{{ roll.data.title | slug }}:hover {
+                    .li-{{ roll.data.title | classify }}:hover {
                         background-size: cover;
                         background-image: url(https://res.cloudinary.com/djd6kxozp/image/upload/w_640,h_300,c_fill/{{ roll.data.album }}/{{ roll.data.featured_image }}.jpg);
                     }
                 </style>
             {%- endif -%}
-            <li class="li-{{ roll.data.title | slug }} bg-gray-300 border-4 border-gray-400 my-4">
+            <li class="li-{{ roll.data.title | classify }} bg-gray-300 border-4 border-gray-400 my-4">
                 <a href="{{ roll.url }}" class="flex justify-center items-center w-full p-8">
                     <div class="bg-gray-300 px-1">
                         {{ roll.data.title }} - <time datetime="{{ roll.date | htmlDateString }}">{{ roll.date | readableDate }}</time>

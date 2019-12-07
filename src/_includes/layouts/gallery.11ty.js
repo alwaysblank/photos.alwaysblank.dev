@@ -41,7 +41,7 @@ class Gallery {
     });
     let link = ``;
     if (url) {
-      link = `<div>(<a class="text-xs underline text-pink-500" href="${url}">${url_text}</a>)</div>`;
+      link = `<div>(<a class="text-xs" href="${url}">${url_text}</a>)</div>`;
     }
     return `<figure class="my-4 text-center"><a class="border-4 border-gray-400 bg-gray-400 block" href="${large}" data-lightbox>
               <img class="block max-w-full"

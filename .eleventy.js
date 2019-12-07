@@ -36,6 +36,10 @@ module.exports = function (eleventyConfig) {
         return date.toISOString();
     });
 
+    eleventyConfig.addFilter("classify", function(data) {
+        return data.replace(/\W/g, '');
+    })
+
     eleventyConfig.addFilter("replaceDoubleQuote", (value) => value.replace(`"`, `'`));
     eleventyConfig.addFilter("replaceSingleQuote", (value) => value.replace(`'`, `"`));
 
