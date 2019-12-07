@@ -1,7 +1,7 @@
 ---
 title: Sou'Wester 2019
-album: sou-wester-2019
-date: 2019-11-23T11:00:00-08:00
+album: photos/sou-wester-2019
+date: 2019-11-23T19:00:00.000+00:00
 featured_image: peeking
 
 ---
