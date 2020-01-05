@@ -1,7 +1,7 @@
 ---
 title: Astoria
-album: astoria
-date: 2020-01-04T00:00:00-08:00
+album: photos/astoria
+date: 2020-01-04T08:00:00.000+00:00
 featured_image: mountains-and-sky
 
 ---
