@@ -1,3 +1,188 @@
 {
-  "photos": []
+  "photos": [
+    {
+      "public_id": "photos/astoria/bridge-and-river",
+      "format": "jpg",
+      "version": 1578202295,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:35Z",
+      "bytes": 4996253,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202295/photos/astoria/bridge-and-river.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202295/photos/astoria/bridge-and-river.jpg",
+      "context": {
+        "custom": {
+          "caption": "The Columbia River running under the bridge at Astoria and into the Pacific Ocean"
+        }
+      },
+      "next_cursor": "c0afaa96369cac9624b9d6c00571c556d5e3dea5603111a89f582b6b33466b12",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    },
+    {
+      "public_id": "photos/astoria/building-and-clouds",
+      "format": "jpg",
+      "version": 1578202291,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:31Z",
+      "bytes": 2302209,
+      "width": 4310,
+      "height": 1347,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202291/photos/astoria/building-and-clouds.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202291/photos/astoria/building-and-clouds.jpg",
+      "context": {
+        "custom": {
+          "caption": "Silvered cedar shakes on a building with a river and sky in the background"
+        }
+      },
+      "next_cursor": "18b07213f61b3c38a8e49ec7612c65ed97fc64e08292307d0af6fab103e1db1c",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    },
+    {
+      "public_id": "photos/astoria/columbia-river",
+      "format": "jpg",
+      "version": 1578202291,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:31Z",
+      "bytes": 3714605,
+      "width": 3898,
+      "height": 2602,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202291/photos/astoria/columbia-river.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202291/photos/astoria/columbia-river.jpg",
+      "context": {
+        "custom": {
+          "caption": "Looking upriver on the Columbia"
+        }
+      },
+      "next_cursor": "30cb5266b3306c37e513373350e57cb8eb3313222cd8b306932c616353f98acc",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    },
+    {
+      "public_id": "photos/astoria/land-beneath-the-canoe",
+      "format": "jpg",
+      "version": 1578202289,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:29Z",
+      "bytes": 2786099,
+      "width": 2784,
+      "height": 2743,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202289/photos/astoria/land-beneath-the-canoe.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202289/photos/astoria/land-beneath-the-canoe.jpg",
+      "context": {
+        "custom": {
+          "caption": "Looking out at lowland buildings, framed by a canoe monument"
+        }
+      },
+      "next_cursor": "3af0887901ad672f0b235e7f16faca48f413e8e6c294c9b93f3aa81aa1052563",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    },
+    {
+      "public_id": "photos/astoria/mountains-and-sky",
+      "format": "jpg",
+      "version": 1578202295,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:35Z",
+      "bytes": 4227853,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202295/photos/astoria/mountains-and-sky.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202295/photos/astoria/mountains-and-sky.jpg",
+      "context": {
+        "custom": {
+          "caption": "Looking out over what I assume is the Coast Range in the distance"
+        }
+      },
+      "next_cursor": "6737d06552b52212a75d9348a2b1de2ba55f58bfdd34edad9e739b238fda1df7",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    },
+    {
+      "public_id": "photos/astoria/river-and-misty-hills",
+      "format": "jpg",
+      "version": 1578202299,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:39Z",
+      "bytes": 3845826,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202299/photos/astoria/river-and-misty-hills.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202299/photos/astoria/river-and-misty-hills.jpg",
+      "context": {
+        "custom": {
+          "caption": "A river runs to the ocean with misty hills behind it"
+        }
+      },
+      "next_cursor": "f80601b7103d1bd5c10f575cc11bb242179b762fce873b960313f807a9f0af7d",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    },
+    {
+      "public_id": "photos/astoria/smiling-person",
+      "format": "jpg",
+      "version": 1578202298,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:38Z",
+      "bytes": 3923764,
+      "width": 4310,
+      "height": 2868,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202298/photos/astoria/smiling-person.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202298/photos/astoria/smiling-person.jpg",
+      "context": {
+        "custom": {
+          "caption": "My wife smiling in a winter jacket and hat"
+        }
+      },
+      "next_cursor": "5057c267dd0e19f9af0e2f285deaa3a9d679e6584b08f01b9cd5df6ad8405ce6",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    },
+    {
+      "public_id": "photos/astoria/the-column",
+      "format": "jpg",
+      "version": 1578202299,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-01-05T05:31:39Z",
+      "bytes": 4726577,
+      "width": 2868,
+      "height": 4310,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1578202299/photos/astoria/the-column.jpg",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1578202299/photos/astoria/the-column.jpg",
+      "context": {
+        "custom": {
+          "caption": "The Astoria Column"
+        }
+      },
+      "next_cursor": "525153080585b27837690540f5918cff023a7da9e83ab6942b24d96fd380620d",
+      "derived": [],
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2020-01-05T06:00:00.000Z",
+      "rate_limit_remaining": 497
+    }
+  ]
 }
