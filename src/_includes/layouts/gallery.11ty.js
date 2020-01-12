@@ -79,10 +79,18 @@ class Gallery {
           .map(asset => asset.public_id);
         return Promise.all(
           ids.map(id => {
-            return cloudinary.api.resource(id);
+            return cloudinary.api.resource(id, {
+              image_metadata: true,
+            }).then(values => {
+              delete values.derived;
+              return values;
+            });
           }))
           .then(values => {
-            fs.writeFile(data_file, JSON.stringify({"photos": values}, null, 2), err => console.log(err));
+            fs.writeFile(data_file, JSON.stringify({"photos": values}, null, 2), err => {
+              if (err) throw err;
+              console.log(`Saved data for ${album}!`);
+            });
             return values;
           });
       })
