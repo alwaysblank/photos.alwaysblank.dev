@@ -11,7 +11,7 @@ class Gallery {
 
   buildImage(data) {
     const cloudinary = require('cloudinary').v2;
-    const {public_id, width, height, context = false} = data;
+    const {public_id, width, height, image_metadata = false, context = false} = data;
     const alt = context && context.custom && context.custom.alt ? context.custom.alt.replace(`"`, `'`) : ``;
     const caption = context && context.custom && context.custom.caption ? context.custom.caption : ``;
     const url = context && context.custom && context.custom.url ? context.custom.url : false;
@@ -43,7 +43,13 @@ class Gallery {
     if (url) {
       link = `<div>(<a class="text-xs" href="${url}">${url_text}</a>)</div>`;
     }
-    return `<figure class="my-4 text-center"><a class="border-4 border-gray-400 bg-gray-400 block" href="${large}" data-lightbox>
+    // Set some details from EXIF data.
+    // Currently not much; hopefully as I learn more about the nitty-gritty of photography this will become more interesting.
+    let details = ``;
+    if (image_metadata.Model) {
+      details = `<div class="bg-fade-gray absolute bottom-0 left-0 right-0 text-xs text-left px-2 pt-1 lowercase">${image_metadata.Model}</div>`
+    }
+    return `<figure class="my-4 text-center"><a class="border-4 border-gray-400 bg-gray-400 block relative" href="${large}" data-lightbox>
               <img class="block max-w-full"
                 width="568" 
                 height="${Math.round(ratio * 568)}"
@@ -51,7 +57,9 @@ class Gallery {
                 data-srcset="${srcset.join(`, `)}" 
                 sizes="(max-width: 568px) 100vw, 568px"
                 alt="${alt}"
-                loading="lazy" /></a>
+                loading="lazy" />
+                ${details}
+                </a>
                 ${caption ? `<figcaption class="px-2 py-2 italic">${caption}</figcaption>` : ``}${link}</figure>`;
   }
 

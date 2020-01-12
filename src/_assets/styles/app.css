@@ -11,6 +11,6 @@
   margin-bottom: 0;
 }
 
-.markdown a {
+.markdown a:not([data-lightbox]) {
   border-bottom: 1px solid theme('colors.pink.600');
 }
