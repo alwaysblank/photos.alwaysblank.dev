@@ -14,3 +14,16 @@
 .markdown a:not([data-lightbox]) {
   border-bottom: 1px solid theme('colors.pink.600');
 }
+
+.markdown li {
+  margin-bottom: 0.5em;
+  /* margin-left: 1rem; */
+  position: relative;
+}
+
+.markdown li::before {
+  content: "▪️";
+  position: absolute;
+  left: -1rem;
+  top: 0;
+}

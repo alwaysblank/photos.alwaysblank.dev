@@ -17,8 +17,16 @@
         <a href="/"><span class="text-base text-3xl md:text-xl">📷</span> <span class="hidden md:inline-block">photos.alwaysblank.org</span></a>
         <div class="leading-tight">{{ site.description }}</div>
       </nav>
-    <main class="px-4 py-8">
+    <main class="p-8">
       {{ content | safe }}
+      {% set navPages = collections.all | eleventyNavigation %}
+      <ul class="text-center px-8 block text-lg border-b border-t mt-12 max-w-xl ml-auto mr-auto">
+      {%- for entry in navPages %}
+        <li class="inline {% if entry.url == page.url %}font-bold{% endif %}">
+          <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </li>
+      {%- endfor %}
+      </ul>
     </main>
   </body>
   <script src="/static/scripts/app.js"></script>

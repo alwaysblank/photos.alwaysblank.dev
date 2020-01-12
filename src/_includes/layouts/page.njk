@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+title: About
+---
+<div class="max-w-xl ml-auto mr-auto">
+  <header class="mb-4">
+    <h1 class="text-3xl border-b border-gray-800 leading-tight mb-4">{{ title }}</h1>
+  </header>
+  <div class="markdown">
+    {{ content | safe }}
+  </div>
+</div>

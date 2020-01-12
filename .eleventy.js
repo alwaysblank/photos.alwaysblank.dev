@@ -1,4 +1,5 @@
 require('dotenv').config();
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const htmlmin = require("html-minifier");
 const { DateTime } = require("luxon");
 
@@ -42,6 +43,8 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addFilter("replaceDoubleQuote", (value) => value.replace(`"`, `'`));
     eleventyConfig.addFilter("replaceSingleQuote", (value) => value.replace(`'`, `"`));
+    
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
     return {
         dir: {
