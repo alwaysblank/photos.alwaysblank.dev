@@ -12,6 +12,12 @@ When a build is run (only locally, currently) the script checks to see if a file
 If it doesn't, it pulls the necessary info from Cloudinary via the Admin API, saves it to a file, and then builds the site.
 It does this for faster builds on old rolls, but also to keep from hitting the API a ton--the Admin API is rate-limited to around 500 calls an hour.
 
+[WARNING]
+====
+Remember to create a `.env` file with your Cloudinary env var in it!
+Otherwise you'll get a lot of mysterious errors.
+====
+
 == TODO
 
 . Figure out a way to run builds on push and generate non-existant data files. Possible GitHub Actions implementation?
