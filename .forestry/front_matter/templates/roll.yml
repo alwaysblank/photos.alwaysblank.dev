@@ -24,4 +24,5 @@ fields:
   description: This is the public ID of a photo in the above album on Cloudinary.
 pages:
 - src/rolls/astoria.md
+- src/rolls/evening-in-the-yard.md
 - src/rolls/sou-wester-2019.md
