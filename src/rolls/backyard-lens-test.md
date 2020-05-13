@@ -1,6 +1,6 @@
 ---
 title: Backyard Lens Test
-album: backyard-may-2020
+album: photos/backyard-may-2020
 date: 2020-05-12T20:18:00-07:00
 featured_image: mlep
 
