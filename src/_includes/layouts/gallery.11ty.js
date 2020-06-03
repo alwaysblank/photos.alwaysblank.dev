@@ -46,8 +46,9 @@ class Gallery {
     // Set some details from EXIF data.
     // Currently not much; hopefully as I learn more about the nitty-gritty of photography this will become more interesting.
     let details = ``;
-    if (image_metadata.Model) {
-      details = `<div class="bg-fade-gray absolute bottom-0 left-0 right-0 text-xs text-left px-2 pt-1 lowercase">${image_metadata.Model}</div>`
+    if (image_metadata.Model || context.custom.Model) {
+      let model = image_metadata.Model || context.custom.Model;
+      details = `<div class="bg-fade-gray absolute bottom-0 left-0 right-0 text-xs text-left px-2 pt-1 lowercase">${model}</div>`
     }
     return `<figure class="my-4 text-center"><a class="border-4 border-gray-400 bg-gray-400 block relative" href="${large}" data-lightbox>
               <img class="block max-w-full"
