@@ -32,15 +32,26 @@ The quality of images I've gotten out of it so far have been very encouraging, a
 
 ### DX AF-S Nikkor 18-55mm
 
-    This was the lens that came with the body when I got the camera.
-    It works fine, although for the stuff I like to take photos of (i.e. landscapes) I feel like it sits in a weird spot;
-    It's not wide enough to really take in a lot, but it doesn't have any appreciable zoom to let me get closer to stuff.
-    Beyond that, I'm not familiar enough with the intricacies of lenses to say anything deep about it.
+This was the lens that came with the body when I got the camera.
+It works fine, although for the stuff I like to take photos of (i.e. landscapes) I feel like it sits in a weird spot;
+It's not wide enough to really take in a lot, but it doesn't have any appreciable zoom to let me get closer to stuff.
+Beyond that, I'm not familiar enough with the intricacies of lenses to say anything deep about it.
 
 ### DX AF-S Nikkor 55-200mm
 
-    I still haven't gotten over the excitement of being able to zoom in on things, so I like using this lens just because I can zoom in on stuff.
-    It allows to to sometimes take pictures which feel a bit more candid, which is nice because I don't like things that feel too staged, but it do wish it had a bit more zoom.
+I still haven't gotten over the excitement of being able to zoom in on things, so I like using this lens just because I can zoom in on stuff.
+It allows to to sometimes take pictures which feel a bit more candid, which is nice because I don't like things that feel too staged, but it do wish it had a bit more zoom.
+
+
+## Develop
+
+For film, I just send it off to be developed.
+After several months, I finally got my film scanner hooked up, and I've started scanning film.
+I still have a bit to learn
+(i.e. how to keep my negatives free from dust and stray cat/dog hair)
+but so far it's been great.
+
+For minimal digital postprocessing, I've been using [darktable](https://www.darktable.org/), mostly because it's free and I don't want to pay for Lightroom for something that's currently just a light hobby. I've also been using a copy of Lightroom on my work computer...
     
 ## Retired
 
@@ -67,11 +78,3 @@ Fixing the camera would almost certainly cost more than it's worth (monetarily),
     See the pattern?
     Like the another zoom lense I have more fun with this one, just because I like getting close to stuff without being...too close to it.
     Since this won't mount on any of my cameras except the P30t, it's been retired.
-
-## Develop
-
-For film, I just send it off to be developed.
-I recently got a film scanner to scan negatives with, but I haven't had the oportunity to try it out yet.
-
-For digital photography, (and eventually for scans) I've been using [darktable](https://www.darktable.org/), mostly because it's free and I don't want to pay for Lightroom for something that's currently just a light hobby.
-It's got plenty of...stuff I can do, but I have no idea what most of it does, or really how to get the most out of editing stuff in it anyway.
