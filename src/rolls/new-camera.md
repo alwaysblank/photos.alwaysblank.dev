@@ -1,7 +1,7 @@
 ---
 title: New Camera
-album: photos/first-set-with-new-amera
-date: 2020-06-03T00:00:00-07:00
+album: photos/first-set-with-new-camera
+date: 2020-06-03T07:00:00.000+00:00
 featured_image: iris-profile
 
 ---
