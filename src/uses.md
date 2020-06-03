@@ -14,17 +14,35 @@ I am very, _very_ much an amateur photographer, so don't expect too much here.
 This is the camera I use most of the time, mostly just because digital is way way easier to deal with these days.
 I've had it for several years, and it's starting to show some wear and tear (the lid for the SD card has cracked off, and the autofocuses doesn't seem to be as good as it used to be), but it's still good for what I ask it to do and a new camera is very expensive.
 
-#### Lenses
+### Nikon F4
 
- - **AF-S Nikkor 18-55mm**  
+During the Spring (and quarantine!) of 2020, I decided I wanted to try and encourage my creativity and invest in one of the few hobbies I haven't (yet) tried to monetize: Photography.
+I wanted a camera that was a step up from my Pentax 
+(which had developed a problem advancing film)
+and after some research I determined that an F4 was the way to go.
+It would be able to mount all my existing Nikon lenses 
+(admitedly only two, and eventually I realized I wouldn't want to mount DX lenses on it anyway),
+it wasn't going to break the bank, and because it was a manual-everything, professional-spec camera from the 80s, it was built like a tank so it would be able to survive my less-than-gentle hands.
+
+So far, I've been very pleased with it!
+It's a lot of fun to use, the autofocus is blindlingly fast, even compared to much more modern cameras, and although automatic film advance/rewinding certainly aren't new developments in film technology, I've never had a camera with them before so it feels new and exciting to me. 
+The quality of images I've gotten out of it so far have been very encouraging, and the research I've done looking for and buying it has already taught me more about photography and made my photos better.
+
+## Lenses
+
+### DX AF-S Nikkor 18-55mm
+
     This was the lens that came with the body when I got the camera.
     It works fine, although for the stuff I like to take photos of (i.e. landscapes) I feel like it sits in a weird spot;
     It's not wide enough to really take in a lot, but it doesn't have any appreciable zoom to let me get closer to stuff.
     Beyond that, I'm not familiar enough with the intricacies of lenses to say anything deep about it.
 
- - **AF-S Nikkor 55-200mm**  
+### DX AF-S Nikkor 55-200mm
+
     I still haven't gotten over the excitement of being able to zoom in on things, so I like using this lens just because I can zoom in on stuff.
     It allows to to sometimes take pictures which feel a bit more candid, which is nice because I don't like things that feel too staged, but it do wish it had a bit more zoom.
+    
+## Retired
 
 ### Pentax P30t
 
@@ -33,16 +51,22 @@ It used to belong to my grandpa, and when he learned I was getting into photogra
 It's a nice little camera and I enjoy using it (there's something about shooting on actual film that still feels more exciting that digital), but unfortunately dealing with film is both slightly expensive and a hassle, so I don't do it as much as I wish I did.
 It does _not_ have autofocus, so it's definitely a bit more work for me.
 
-#### Lenses
+Unfortunately, this camera developed an issue where it wouldn't advance film correctly: 
+The last several rolls I shot only ended up being 1/2 - 1/3 used, with most of the roll just empty frames.
+Fixing the camera would almost certainly cost more than it's worth (monetarily), so for the time being I'm going to keep it but retired it from active use.
+
+## Lenses
 
  - **SMC Pentax-A 50mm**  
     More or less the default lens for this guy, I think.
     Not really anything clever to say here; it works, and I don't know that much about lenses.
+    Since this won't mount on any of my cameras except the P30t, it's been retired.
 
  - **Tamron 70-210mm**  
     Another long lens!
     See the pattern?
     Like the another zoom lense I have more fun with this one, just because I like getting close to stuff without being...too close to it.
+    Since this won't mount on any of my cameras except the P30t, it's been retired.
 
 ## Develop
 
