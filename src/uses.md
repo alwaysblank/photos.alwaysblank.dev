@@ -9,10 +9,16 @@ I am very, _very_ much an amateur photographer, so don't expect too much here.
 
 ## Cameras
 
-### Nikon D5000
+### Canon EOS RP
 
-This is the camera I use most of the time, mostly just because digital is way way easier to deal with these days.
-I've had it for several years, and it's starting to show some wear and tear (the lid for the SD card has cracked off, and the autofocuses doesn't seem to be as good as it used to be), but it's still good for what I ask it to do and a new camera is very expensive.
+This is the digital camera I got to replace my D5000.
+
+I made the switch to Canon because I wanted a mirrorless full-frame camera, and Nikon's were just too expensive.
+My Nikon lens collection, such as it is, is all old F-mount lenses that wouldn't work on Nikon's Z-mount mirrorless cameras anyway, and they aren't especially nice either--they're all stuff I picked up for _very_ cheap on Craigslist.
+
+So far, the RP is great:
+It's got excellent low-light performance, it takes great pictures, and it's just real nice to use something that feels _modern_.
+Although the RF lenses aren't cheap, it _seems_ like it's a format that Canon will probably stick with for a while--I hope.
 
 ### Nikon F4
 
@@ -30,18 +36,22 @@ The quality of images I've gotten out of it so far have been very encouraging, a
 
 ## Lenses
 
-### DX AF-S Nikkor 18-55mm
+### RF 50mm F1.8 STM
 
-This was the lens that came with the body when I got the camera.
-It works fine, although for the stuff I like to take photos of (i.e. landscapes) I feel like it sits in a weird spot;
-It's not wide enough to really take in a lot, but it doesn't have any appreciable zoom to let me get closer to stuff.
-Beyond that, I'm not familiar enough with the intricacies of lenses to say anything deep about it.
+This is the first digital prime lens I've used--and the first since I actually understood what a prime lens _is_.
+I have a 50mm lens for my Pentax P30t, but that camera hasn't seen use for a long, long time.
 
-### DX AF-S Nikkor 55-200mm
+So far this lens has been a lot of fun to use.
+I wanted a prime lens because to some extent it forces you to think a bit more about framing, content etc--you can't zoom except by moving closer or further away.
+It's also nice to have such a fast lens, especially on a digital camera that can handle low light pretty well.
+I've taken some photos already in indoor rooms with extremely poor lighting that have come out pretty cool.
 
-I still haven't gotten over the excitement of being able to zoom in on things, so I like using this lens just because I can zoom in on stuff.
-It allows to to sometimes take pictures which feel a bit more candid, which is nice because I don't like things that feel too staged, but it do wish it had a bit more zoom.
+### RF 24-105mm F4-7.1 IS STM
 
+The other lens I got with my RP when I bought it.
+As fun as the 50mm is, I knew that I would want something with more flexibility and, well, this was the only option I could afford.
+
+To be honest, I've barely used it so far becuse the 50mm is just way more fun.
 
 ## Develop
 
@@ -66,6 +76,13 @@ Unfortunately, this camera developed an issue where it wouldn't advance film cor
 The last several rolls I shot only ended up being 1/2 - 1/3 used, with most of the roll just empty frames.
 Fixing the camera would almost certainly cost more than it's worth (monetarily), so for the time being I'm going to keep it but retired it from active use.
 
+### Nikon D5000
+
+This was my primary-use camera for years
+(I think I've had it for nearly a decade)
+but it finally started to give up the ghost--mostly in the form of an increasing number of hotspots that make photos almost unusable.
+It did a lot for me, and I appreciate it.
+
 ## Lenses
 
  - **SMC Pentax-A 50mm**  
@@ -78,3 +95,17 @@ Fixing the camera would almost certainly cost more than it's worth (monetarily),
     See the pattern?
     Like the another zoom lense I have more fun with this one, just because I like getting close to stuff without being...too close to it.
     Since this won't mount on any of my cameras except the P30t, it's been retired.
+
+- **DX AF-S Nikkor 18-55mm**
+    This was the lens that came with the body when I got the camera.
+    It works fine, although for the stuff I like to take photos of (i.e. landscapes) I feel like it sits in a weird spot;
+    It's not wide enough to really take in a lot, but it doesn't have any appreciable zoom to let me get closer to stuff.
+    Beyond that, I'm not familiar enough with the intricacies of lenses to say anything deep about it.
+    
+    This lens was traded in a while ago to get another DX lens...which was also later traded in with the D5000 because I had no other cameras that could mount DX lenses.
+
+- **DX AF-S Nikkor 55-200mm**
+    I still haven't gotten over the excitement of being able to zoom in on things, so I like using this lens just because I can zoom in on stuff.
+    It allows to to sometimes take pictures which feel a bit more candid, which is nice because I don't like things that feel too staged, but it do wish it had a bit more zoom.
+
+    This lens was traded in a while ago to get another DX lens...which was also later traded in with the D5000 because I had no other cameras that could mount DX lenses.

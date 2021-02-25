@@ -7,7 +7,7 @@
     "assets:build": "parcel build src/_assets/styles/app.css src/_assets/scripts/app.js -d src/static --no-source-maps",
     "site:build": "eleventy build",
     "site:serve": "eleventy --serve",
-    "build": "assets:build && site:build"
+    "build": "npm run assets:build && npm run site:build"
   },
   "author": "Chris Collins",
   "license": "ISC",

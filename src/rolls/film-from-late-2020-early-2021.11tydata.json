@@ -30,7 +30,7 @@
       "original_filename": "2021_02_23_041",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "1c0145f2e3b5c6221ed6b7c22593bf35",
@@ -62,7 +62,7 @@
       "original_filename": "2021_02_23_042",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "c630d778bab06dafc213a2bee7a64836",
@@ -94,7 +94,7 @@
       "original_filename": "2021_02_23_043",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "f1d342b40f7c7134025d54bad0df4e0e",
@@ -126,7 +126,7 @@
       "original_filename": "2021_02_23_046",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "5ce0bb203bcfc5c23773fe6de9c8d8a1",
@@ -158,39 +158,7 @@
       "original_filename": "2021_02_23_049",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
-    },
-    {
-      "asset_id": "3ae7072fc70d241dbab34806695de38d",
-      "public_id": "photos/2021-first-film-rolls/2021_02_24_004",
-      "format": "png",
-      "version": 1614204959,
-      "resource_type": "image",
-      "type": "upload",
-      "created_at": "2021-02-24T22:15:59Z",
-      "bytes": 2289733,
-      "width": 1651,
-      "height": 1035,
-      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1614204959/photos/2021-first-film-rolls/2021_02_24_004.png",
-      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1614204959/photos/2021-first-film-rolls/2021_02_24_004.png",
-      "next_cursor": "5183f1803cfcc2271c890a98db45ef8bdf4ba5fc63be958c44c4d62fbe4642e6",
-      "etag": "76d8626aee8283fd6146a999338f9284",
-      "image_metadata": {
-        "PixelsPerUnitX": "2835",
-        "PixelsPerUnitY": "2835",
-        "PixelUnits": "meters",
-        "Colorspace": "RGB",
-        "DPI": "72"
-      },
-      "illustration_score": 0,
-      "semi_transparent": true,
-      "grayscale": false,
-      "pages": 1,
-      "usage": {},
-      "original_filename": "2021_02_24_004",
-      "rate_limit_allowed": 500,
-      "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "9c2e732db17d1e9848a97e77a4cde6ef",
@@ -222,7 +190,7 @@
       "original_filename": "2021_02_24_016",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "98159d96b61ac4114a97f89f52d7abd6",
@@ -254,7 +222,7 @@
       "original_filename": "2021_02_24_018",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "570dbc4ca9080cf34618f8a5003f2132",
@@ -286,7 +254,7 @@
       "original_filename": "2021_02_24_030",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "9dabe4f3b70078e95b3542fb3dd4fce0",
@@ -318,7 +286,7 @@
       "original_filename": "2021_02_24_041",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "83eb9a55299abefb2137185b2bbe373f",
@@ -350,7 +318,7 @@
       "original_filename": "2021_02_24_044",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "32446c6d58e78245097c4a6a6bcabf96",
@@ -382,7 +350,7 @@
       "original_filename": "2021_02_24_046",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "b50e8ae7dd90efcd801aea22577d5235",
@@ -414,7 +382,7 @@
       "original_filename": "2021_02_24_048",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "6bfcc2f6263f0314a57c4b45b96cce6f",
@@ -446,7 +414,7 @@
       "original_filename": "2021_02_24_051",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "e3f55046c88b98dd2734afcb3b310344",
@@ -478,7 +446,7 @@
       "original_filename": "2021_02_24_054",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "2850deb7f30102c4bb666947001da3bb",
@@ -510,7 +478,7 @@
       "original_filename": "2021_02_24_056",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
     },
     {
       "asset_id": "ad1d86fe76b69a2df83c876562e23568",
@@ -542,7 +510,39 @@
       "original_filename": "2021_02_24_059",
       "rate_limit_allowed": 500,
       "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
-      "rate_limit_remaining": 499
+      "rate_limit_remaining": 464
+    },
+    {
+      "asset_id": "3ae7072fc70d241dbab34806695de38d",
+      "public_id": "photos/2021-first-film-rolls/kitchen-floor",
+      "format": "png",
+      "version": 1614204959,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2021-02-24T22:15:59Z",
+      "bytes": 2289733,
+      "width": 1651,
+      "height": 1035,
+      "url": "http://res.cloudinary.com/djd6kxozp/image/upload/v1614204959/photos/2021-first-film-rolls/kitchen-floor.png",
+      "secure_url": "https://res.cloudinary.com/djd6kxozp/image/upload/v1614204959/photos/2021-first-film-rolls/kitchen-floor.png",
+      "next_cursor": "5183f1803cfcc2271c890a98db45ef8bdf4ba5fc63be958c44c4d62fbe4642e6",
+      "etag": "76d8626aee8283fd6146a999338f9284",
+      "image_metadata": {
+        "PixelsPerUnitX": "2835",
+        "PixelsPerUnitY": "2835",
+        "PixelUnits": "meters",
+        "Colorspace": "RGB",
+        "DPI": "72"
+      },
+      "illustration_score": 0,
+      "semi_transparent": true,
+      "grayscale": false,
+      "pages": 1,
+      "usage": {},
+      "original_filename": "2021_02_24_004",
+      "rate_limit_allowed": 500,
+      "rate_limit_reset_at": "2021-02-25T20:00:00.000Z",
+      "rate_limit_remaining": 464
     }
   ]
 }
