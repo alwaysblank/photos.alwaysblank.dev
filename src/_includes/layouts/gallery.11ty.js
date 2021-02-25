@@ -25,7 +25,7 @@ class Gallery {
       transformation: [{ width: 100,}]
     });
     const large = cloudinary.url(public_id, {
-      fetch_format: `auto`,
+      format: `png`,
       quality: `auto:best`,
       secure: true,
       transformation: [{ width: 1280,}]
@@ -33,6 +33,7 @@ class Gallery {
     const srcset = [320, 568, 1280].map(w => {
       const src = cloudinary.url(public_id, {
         fetch_format: `auto`,
+        format: `png`,
         quality: `auto:good`,
         secure: true,
         transformation: [{ width: w,}]
@@ -69,7 +70,7 @@ class Gallery {
     const cloudinary = require('cloudinary').v2;
     const data_file = `./src${page.filePathStem}.11tydata.json`;
 
-    
+
     if (photos) {
       return this.template(content, photos
         .sort((a, b) => {
@@ -78,7 +79,7 @@ class Gallery {
         .map(this.buildImage).join(``))
     } else {
 
-      return cloudinary.api.resources({ 
+      return cloudinary.api.resources({
         type: 'upload',
         max_results: 100,
         prefix: album,
