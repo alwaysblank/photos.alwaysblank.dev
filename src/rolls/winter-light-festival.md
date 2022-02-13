@@ -1,7 +1,7 @@
 ---
 title: Winter Light Festival
-album: winter-light-festival
-date: 2022-02-12T19:00:00-08:00
+album: photos/winter-light-festival
+date: 2022-02-12T19:00:00.000-08:00
 featured_image: IMG_1185
 
 ---
