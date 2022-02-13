@@ -1,7 +1,7 @@
 ---
 title: Morning Steam
-album: steam
-date: 2021-12-14T06:00:00-08:00
+album: photos/steam
+date: 2021-12-14T06:00:00.000-08:00
 featured_image: IMG_1023
 
 ---
