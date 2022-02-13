@@ -1,7 +1,7 @@
 ---
 title: Chehalem Ridge Nature Park
-album: chehalem-ridge-nature-park
-date: 2022-02-11T18:00:00-08:00
+album: photos/chehalem-ridge-nature-park
+date: 2022-02-11T18:00:00.000-08:00
 featured_image: IMG_1063
 
 ---
