@@ -5,7 +5,7 @@
     {% if site.ENV == 'production' %}
       <!-- capture the CSS content as a Liquid variable -->
       {% set css %}{% include "static/styles/app.css" %}{% endset %}
-      <style> 
+      <style>
         {{ css | safe }}
       </style>
     {% else %}
@@ -30,19 +30,4 @@
     </main>
   </body>
   <script src="/static/scripts/app.js"></script>
-  <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-  <script>
-  (function(f, a, t, h, o, m){
-    a[h]=a[h]||function(){
-      (a[h].q=a[h].q||[]).push(arguments)
-    };
-    o=f.createElement('script'),
-    m=f.getElementsByTagName('script')[0];
-    o.async=1; o.src=t; o.id='fathom-script';
-    m.parentNode.insertBefore(o,m)
-  })(document, window, '//stats.alwaysblank.org/tracker.js', 'fathom');
-  fathom('set', 'siteId', 'ONFXV');
-  fathom('trackPageview');
-  </script>
-  <!-- / Fathom -->
 </html>
